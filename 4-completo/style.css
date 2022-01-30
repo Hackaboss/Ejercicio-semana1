@@ -1,0 +1,92 @@
+.body {
+  font-family: Georgia, Times, serif;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  margin: 0;
+}
+p {
+  margin-bottom: 1.6;
+}
+.container {
+  width: 50%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.header {
+  background: violet;
+  color: white;
+  padding: 1rem 0;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+.h1 {
+  width: 20%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.3em;
+  font-size: 2rem;
+  align-items: center;
+  font-size: 2.5em;
+}
+.logo-nav-container {
+  justify-content: space-between;
+  align-items: center;
+}
+.navegation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.navegation ul li {
+  display: inline-block;
+}
+.navegation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.footer {
+  background: rgb(0, 181, 194);
+  padding: 1rem 0;
+  text-align: center;
+}
+.footer a {
+  color: white;
+}
+.main {
+  width: 100%;
+  max-width: 850%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formul {
+  background: violet;
+  color: white;
+  padding: 1rem 0;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top10 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.aside {
+  background: white;
+  text-align: center;
+}
+.main ol li {
+  justify-content: center;
+  align-items: center;
+}

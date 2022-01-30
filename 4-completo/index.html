@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Debrable</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="/4-completo/style.css" rel="stylesheet" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container logo-nav-container">
+        <h1 class="h1">Debrable</h1>
+        <nav class="navegation">
+          <ul>
+            <li><a href="#top10peliculas">Mi TOP 10 de peliculas</a></li>
+            <li><a href="#viajejapon">Mi viaje a Japon</a></li>
+            <li><a href="#mensaje">Mandame un mensaje</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="top10">
+        <article id="top10peliculas">
+          <h2>Mi top 10 de peliculas favoritas</h2>
+          <ol>
+            <li>El padrino</li>
+            <li>La lista de Schindler</li>
+            <li>El padrino. Parte II</li>
+            <li>Cadena perpetua</li>
+            <li>Pulp Fiction</li>
+            <li>El rey Leon</li>
+            <li>Forrest Gump</li>
+            <li>La vida es bella</li>
+            <li>Gladiator</li>
+            <li>Coco</li>
+          </ol>
+        </article>
+
+        <article id="viajejapon" class="viaje">
+          <h2>Mi viaje a Japon</h2>
+          <img
+            src="https://images.ecestaticos.com/OHD0uJm-ppTqBwIDZQeS2Ld0a54=/77x5:1185x836/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F0c0%2F05a%2Fcd4%2F0c005acd4669a908e6ba18a46ed83dec.jpg"
+            width="100"
+            height="100"
+            alt="foto japon"
+          />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
+            aliquet mi, non viverra erat. Suspendisse a congue ipsum.
+            Suspendisse vitae purus nec arcu venenatis aliquet et ut urna. In et
+            erat id neque rutrum dignissim. Aenean congue commodo tincidunt.
+            Cras id orci sapien. Phasellus ipsum libero, finibus sit amet ante
+            a, cursus interdum ipsum. Donec eget odio erat. Suspendisse potenti.
+            Nulla in ante at arcu aliquam ultricies. Etiam urna enim, porttitor
+            id risus at, elementum dignissim arcu.
+          </p>
+        </article>
+      </section>
+
+      <aside class="aside">
+        <img
+          src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg"
+          alt="fotoPerfil"
+          width="100"
+          height="100"
+        />
+        <h2>Debra Smith</h2>
+        <p>Aqui escribo lo que se me ocurre</p>
+        <a href="mailto:debra.smith@example.com">debra.smith@example.com</a>
+      </aside>
+
+      <section id="mensaje" class="formul">
+        <form name="formulario" method="get" action="#">
+          <h2>Mandame un mensaje</h2>
+          <p>
+            <label for="name">Nombre: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              autocomplete="name"
+            />
+          </p>
+          <p>
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              autocomplete="email"
+            />
+          </p>
+          <p>
+            <label for="date"> Fecha de: </label>
+            <input type="date" name="date" id="date" />
+          </p>
+          <p>
+            <label for="comment">Comentario: </label>
+          </p>
+          <p>
+            <textarea name="comment" id="comment" cols="50" rows="6"></textarea>
+          </p>
+
+          <p>
+            <label
+              ><input type="checkbox" name="subscribe" /> Subscribete a mi
+              Newsletter</label
+            >
+            <button>Enviar</button>
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="">Terminos y condiciones</a>
+      <span>|</span>
+      <a href="">Politica de privacidad</a>
+    </footer>
+  </body>
+</html>
