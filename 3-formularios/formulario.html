@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FORMULARIO - EjercicioHTML</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form method="get" action="#" name="formulario">
+          <fieldset>
+            <legend>DATOS DE CONTACTO</legend>
+            <p>
+              <label for="name">NOMBRE: </label>
+              <input type="text" name="name" id="name" autofocus required />
+            </p>
+            <p>
+              <label for="email"> EMAIL: </label>
+              <input type="email" name="email" id="email" required />
+            </p>
+            <p>
+              <label for="url"> URL:</label>
+              <input
+                id="url"
+                type="url"
+                name="url"
+                placeholder="Escribe la URL de tu página web"
+              />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>FECHA Y HORA</legend>
+            <p>
+              <label for="date"> FECHA: </label>
+              <input type="date" name="date" id="date" />
+            </p>
+            <p>
+              <label for="datetime">FECHA Y HORA: </label>
+              <input type="datetime-local" name="datetime" id="datetime" />
+            </p>
+            <p>
+              <label for="month">MES: </label>
+              <input type="month" name="month" id="month" />
+            </p>
+            <p>
+              <label for="week"> SEMANA: </label>
+              <input type="week" name="week" id="week" />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>NUMERO</legend>
+            <p>
+              <label for="number">NUMERO (-10 Y 10):</label>
+              <input
+                type="number"
+                name="number"
+                value="0"
+                min="-10"
+                max="10"
+                id="number"
+              />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>TELEFONO</legend>
+            <p>
+              <label for="phone">TELEFONO:</label>
+              <input
+                type="tel"
+                name="phone"
+                value="67590330"
+                disabled
+                id="phone"
+              />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>BUQUEDA</legend>
+            <p>
+              <label for="search">BUSCAR: </label>
+              <input type="search" name="search" id="search" disabled />
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>COLOR</legend>
+            <p>
+              <label for="color">COLOR FAVORITO: </label>
+              <input type="color" name="favcolor" id="color" color />
+            </p>
+          </fieldset>
+          <p><button>ENVIAR FORMULARIO</button></p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
