@@ -39,13 +39,17 @@ p {
   align-items: center;
 }
 .navegation ul {
-  margin: 0;
-  padding: 0;
+  margin: 0 5px;
+  padding: 5px 15px;
   list-style: none;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  border-radius: 5px 3px 0 0;
+  background-color: rgb(207, 92, 207);
+  display: flex;
+  border-bottom: 1px solid #ccc;
 }
 .navegation ul li {
   display: inline-block;
@@ -78,15 +82,25 @@ p {
   align-items: center;
 }
 .top10 {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+  width: 400px;
+  margin: 0px auto;
+  padding: 8p;
 }
 .aside {
-  background: white;
+  background: rgb(212, 198, 198);
   text-align: center;
+  border-style: ridge;
 }
 .main ol li {
   justify-content: center;
   align-items: center;
+}
+.viaje {
+  width: 400px;
+  margin: 0px auto;
+  padding: 8p;
+  text-align: center;
+}
+.active {
+  background: rgb(212, 189, 212);
 }

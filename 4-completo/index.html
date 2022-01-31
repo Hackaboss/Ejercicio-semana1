@@ -14,7 +14,11 @@
         <h1 class="h1">Debrable</h1>
         <nav class="navegation">
           <ul>
-            <li><a href="#top10peliculas">Mi TOP 10 de peliculas</a></li>
+            <li>
+              <a href="#top10peliculas" class="active"
+                >Mi TOP 10 de peliculas</a
+              >
+            </li>
             <li><a href="#viajejapon">Mi viaje a Japon</a></li>
             <li><a href="#mensaje">Mandame un mensaje</a></li>
           </ul>
@@ -39,12 +43,12 @@
           </ol>
         </article>
 
-        <article id="viajejapon" class="viaje">
+        <article id="viaje" class="viaje">
           <h2>Mi viaje a Japon</h2>
           <img
-            src="https://images.ecestaticos.com/OHD0uJm-ppTqBwIDZQeS2Ld0a54=/77x5:1185x836/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F0c0%2F05a%2Fcd4%2F0c005acd4669a908e6ba18a46ed83dec.jpg"
-            width="100"
-            height="100"
+            src="https://res.cloudinary.com/jnto/image/upload/w_914,h_516,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/c6/d2/c6d23c96-fc5d-42a4-8e36-0d852102367d/fushimi_lnwdef"
+            width="400"
+            height="300"
             alt="foto japon"
           />
           <p>
@@ -62,10 +66,10 @@
 
       <aside class="aside">
         <img
-          src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg"
+          src="/4-completo/multimedia/png-clipart-y-recursos-woman-s-profile-removebg-preview.png"
           alt="fotoPerfil"
-          width="100"
-          height="100"
+          width="300"
+          height="200"
         />
         <h2>Debra Smith</h2>
         <p>Aqui escribo lo que se me ocurre</p>
@@ -96,8 +100,8 @@
             />
           </p>
           <p>
-            <label for="date"> Fecha de: </label>
-            <input type="date" name="date" id="date" />
+            <label for="date"> Fecha de nacimiento: </label>
+            <input type="date" name="date" id="date" required />
           </p>
           <p>
             <label for="comment">Comentario: </label>
